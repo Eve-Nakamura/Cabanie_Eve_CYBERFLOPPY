@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Teleporter : MonoBehaviour //pour téléporter héhé
+public class Teleporter : MonoBehaviour //pour téléporter 
 {
     private void OnTriggerEnter2D(Collider2D p_collision)
     {

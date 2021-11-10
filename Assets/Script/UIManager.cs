@@ -12,12 +12,12 @@ public class UIManager : MonoBehaviour
     void Start()
     {
         
-        gameOverPanel.gameObject.SetActive(false);
-        start_panel.gameObject.SetActive(true);
+        gameOverPanel.gameObject.SetActive(false); //l'écran de game over est désactivé
+        start_panel.gameObject.SetActive(true); //l'écran de start de jeu est affiché
     }
 
     public void triggerGameOver()
     {
-        gameOverPanel.gameObject.SetActive(true);
+        gameOverPanel.gameObject.SetActive(true); //on affiche l'écran de game over
     }
 }

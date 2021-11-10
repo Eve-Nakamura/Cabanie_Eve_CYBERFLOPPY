@@ -5,11 +5,12 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
 
-    public float maxSpeedY_Up;
-    public float maxSpeedY_Down;
-    public float thrust_force;
-    public Vector3 initialPosition;
-    public Rigidbody2D _rigid;
+
+    public float maxSpeedY_Up; // vitesse max du bird vers le haut
+    public float maxSpeedY_Down; //vitesse max du bird vers le bas
+    public float thrust_force; //puissance des ailes du bird
+    public Vector3 initialPosition; //le bird est là au départ
+    public Rigidbody2D _rigid; //il a un rigid body pour la gravité
 
 
     void Start()
@@ -19,13 +20,13 @@ public class Player : MonoBehaviour
         initialPosition = transform.position;
 
     }
-    // Update is called once per frame
+    
 
 
     void Update()
     {
         
-
+        // apputer sur la barre espace pour mettre un coup d'aile
         if (Input.GetKeyDown(KeyCode.Space))
         {
             _rigid.AddForce(Vector2.up * thrust_force, ForceMode2D.Force);
@@ -42,6 +43,7 @@ public class Player : MonoBehaviour
         }
     }
 
+    //on le remet là où il était au début
     public void relaunchObject()
     {
         transform.position = initialPosition;

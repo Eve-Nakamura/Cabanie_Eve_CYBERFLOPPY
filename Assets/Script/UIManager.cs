@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//permet de gérer les écrans d'UI lors du game over
 public class UIManager : MonoBehaviour
 {
 
@@ -10,7 +11,7 @@ public class UIManager : MonoBehaviour
 
     void Start()
     {
-        Debug.Log(start_panel);
+        
         gameOverPanel.gameObject.SetActive(false);
         start_panel.gameObject.SetActive(true);
     }
@@ -20,4 +21,3 @@ public class UIManager : MonoBehaviour
         gameOverPanel.gameObject.SetActive(true);
     }
 }
-//BLABLAKIJUNJNJNJè-tfèhy_iuj(tfriuj

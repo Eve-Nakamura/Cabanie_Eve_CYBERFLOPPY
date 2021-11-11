@@ -18,6 +18,6 @@ public class UIManager : MonoBehaviour
 
     public void triggerGameOver()
     {
-        gameOverPanel.gameObject.SetActive(true); //on affiche l'écran de game over
+        gameOverPanel.gameObject.SetActive(true); //on affiche l'écran de game over et le bouton pour recommencer le jeu
     }
 }

@@ -9,7 +9,7 @@ public class Killer : MonoBehaviour //le bird décède s'il se prend un obstacle
     {
         if (p_collision.GetComponent<Player>()!=null)
         {
-           
+      
             FindObjectOfType<UIManager>().triggerGameOver();
         }
         

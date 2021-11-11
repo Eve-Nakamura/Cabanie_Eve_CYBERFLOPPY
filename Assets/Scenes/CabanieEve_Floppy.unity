@@ -272,7 +272,7 @@ GameObject:
   - component: {fileID: 13529691}
   - component: {fileID: 13529692}
   m_Layer: 0
-  m_Name: bluebird-downflap
+  m_Name: Floppy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -511,7 +511,7 @@ GameObject:
   - component: {fileID: 212323536}
   - component: {fileID: 212323535}
   m_Layer: 0
-  m_Name: pipe-red (3)
+  m_Name: retrofuturepipe4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -649,7 +649,7 @@ GameObject:
   - component: {fileID: 360000800}
   - component: {fileID: 360000799}
   m_Layer: 0
-  m_Name: pipe-red (2)
+  m_Name: retrofuturepipe3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1285,7 +1285,7 @@ GameObject:
   - component: {fileID: 800999585}
   - component: {fileID: 800999584}
   m_Layer: 0
-  m_Name: pipe-red (1)
+  m_Name: retrofuturepipe2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1568,7 +1568,7 @@ GameObject:
   - component: {fileID: 1110746432}
   - component: {fileID: 1110746431}
   m_Layer: 0
-  m_Name: Square (1)
+  m_Name: checkpoint1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1705,7 +1705,7 @@ GameObject:
   - component: {fileID: 1137427168}
   - component: {fileID: 1137427167}
   m_Layer: 0
-  m_Name: background-night
+  m_Name: retrofuturebg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1929,7 +1929,7 @@ GameObject:
   - component: {fileID: 1318170983}
   - component: {fileID: 1318170982}
   m_Layer: 0
-  m_Name: Square (2)
+  m_Name: checkpoint2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2393,7 +2393,7 @@ GameObject:
   - component: {fileID: 1498890022}
   - component: {fileID: 1498890021}
   m_Layer: 0
-  m_Name: pipe-red
+  m_Name: retrofuturepipe1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
